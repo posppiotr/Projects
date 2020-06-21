@@ -1,6 +1,6 @@
-package First;
+package Exceptions;
 
-public class St {
+public class Exception {
     public static void main(String[] args) {
         String text = null;
         try{
@@ -10,5 +10,8 @@ public class St {
             e.printStackTrace();
             System.out.println("Nie można odwoływać się do pól i metod obiektów, które są nullem");
         }
+        System.out.println("test");
+        Test test = new Test();
+        test.test();
     }
 }
